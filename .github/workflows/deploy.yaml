@@ -3,7 +3,7 @@ name: Deploy
 on: push
 
 jobs:
-  checks:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -44,3 +44,5 @@ jobs:
       - name: Deploy
         run: |
           yarn deploy
+        env:
+          GIT_USER: "bot"

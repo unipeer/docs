@@ -10,6 +10,7 @@ const config = {
   tagline: 'Documentation on using and contributing to Unipeer',
   url: 'https://docs.unipeer.exchange',
   baseUrl: '/',
+  trailingSlash: true,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/workflow-mark-on-white.svg',
