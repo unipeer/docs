@@ -41,8 +41,14 @@ jobs:
           restore-keys: |
             turbo-${{ github.job }}-${{ github.ref_name }}-
 
-      - name: Deploy
-        run: |
-          yarn deploy
-        env:
-          GIT_USER: "bot"
+      - name: Build website
+        run: yarn build
+
+      # Popular action to deploy to GitHub Pages:
+      # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # Build output to publish to the `gh-pages` branch:
+          publish_dir: ./build
