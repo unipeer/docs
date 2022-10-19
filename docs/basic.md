@@ -42,3 +42,16 @@ This means there's no central party having custody over any funds, removing the
 need for any KYC, minimising fees and preventing loss of funds due to theft.
 
 ### On-Chain Dispute Resolution
+
+Dispute resolution is handled by [Kleros](https://kleros.io).
+In situations where a buyer places an order and claims to have made an 
+off-chain fiat payment to the seller without actually having made the payment,
+the seller can raise a dispute to the Kleros Court.
+
+The Kleros Court will then draw jurors, who then decide the honest
+party based on the policy document specific to the payment method used in the
+order.
+
+Both sides can upload evidence to support their sides of the argument.
+
+You read more about how Kleros works from their [docs here](https://kleros.gitbook.io/docs/).
