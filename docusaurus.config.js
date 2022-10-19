@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/workflow-mark-on-white.svg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -50,10 +50,17 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'announcement',
+        content: '🚧 All information is a <b>work in progress</b> and <b>subject to change</b> 🚧',
+        backgroundColor: '#adaeeb',
+        textColor: '#091E42',
+        isCloseable: true,
+      },
       navbar: {
         title: 'Unipeer Docs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Unipeer Logo',
           src: 'img/workflow-mark-on-white.svg',
         },
         items: [
@@ -65,7 +72,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'developers/core-contracts',
             position: 'left',
             label: 'Developer Docs',
           },
@@ -98,10 +105,10 @@ const config = {
                 label: 'Telegram',
                 href: 'https://t.me/unipeerx',
               },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+              // {
+              //   label: 'Twitter',
+              //   href: 'https://twitter.com/docusaurus',
+              // },
             ],
           },
           {
