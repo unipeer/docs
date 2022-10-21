@@ -73,7 +73,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'developers/core-contracts',
+            docId: 'developer/core-contracts',
             position: 'left',
             label: 'Developer Docs',
           },

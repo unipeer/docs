@@ -28,17 +28,18 @@ const sidebars = {
         'concepts/policies',
       ],
     },
+    'start',
   ],
 
   developer: [
     {
       type: "category",
       label: "Core Contracts",
-      link: { type: 'doc', id: 'developers/core-contracts' },
+      link: { type: 'doc', id: 'developer/core-contracts' },
       items: [ 
       ]
     },
-    'developers/contract-addresses',
+    'developer/contract-addresses',
   ],
 };
 
