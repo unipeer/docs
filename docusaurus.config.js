@@ -113,6 +113,15 @@ const config = {
             ],
           },
           {
+            title: 'Apps',
+            items: [
+              {
+                label: 'Testnet',
+                href: 'https://app.unipeer.exchange/',
+              },
+            ],
+          },
+          {
             title: 'More',
             items: [
               {
