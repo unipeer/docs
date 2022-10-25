@@ -6,9 +6,13 @@ sidebar_position: 0
 
 ## Unipeer.sol
 
-This is the main contract that end-users interact with.
-In the situations of a dispute, the dispute is created by calling the Kleros
-Arbitration contract.
+The main contract where sellers provide liquidity by depositing tokens and
+buyers place buy orders.
+In case of a dispute an arbitration request is raised by calling an external
+arbitrator contract.
+
+An order can default to an end state if either party fails to interact with the contract
+within a time limit set by the governance.
 
 ### Lifecycle of an Order
 
