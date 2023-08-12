@@ -13,7 +13,7 @@ const config = {
   trailingSlash: true,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/workflow-mark-on-white.svg',
+  favicon: 'img/Logo light.svg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -54,15 +54,15 @@ const config = {
       announcementBar: {
         id: 'announcement',
         content: '🚧 All information is a <b>work in progress</b> and <b>subject to change</b> 🚧',
-        backgroundColor: '#adaeeb',
-        textColor: '#091E42',
+        backgroundColor: '#fed0b4',
+        textColor: '#0e144a',
         isCloseable: true,
       },
       navbar: {
         title: 'Unipeer Docs',
         logo: {
           alt: 'Unipeer Logo',
-          src: 'img/workflow-mark-on-white.svg',
+          src: 'img/Logo light.svg',
         },
         items: [
           {
