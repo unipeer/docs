@@ -100,16 +100,16 @@ const config = {
             items: [
               {
                 label: 'Forum',
-                href: 'https://forum.unipeer.exchange',
+                href: 'https://forum.newcollective.earth',
               },
               {
                 label: 'Telegram',
                 href: 'https://t.me/unipeerx',
               },
-              // {
-              //   label: 'Twitter',
-              //   href: 'https://twitter.com/docusaurus',
-              // },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/unipeerdoteth',
+              },
             ],
           },
           {
